@@ -1,0 +1,242 @@
+// Variables
+@header-bg: #353535;
+@header-font: #fff;
+@header-icon: #F1F2F2;
+@light-grey-bg: #ddd;
+@font: #6D6E71;
+@font-header:  #414042;
+@font-body: #5B5B5B;
+@lb-bg: rgba(133, 191, 249, .6);
+@white-bg: rgba(255,255,255,.9);
+
+// Site wide stylings
+body{
+	font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+    color: @font;
+}
+
+.navbar-inverse .navbar-toggle{
+	border-color: transparent;
+}
+
+.navbar-header{
+	background-color: @header-bg;
+	color: @header-font;
+}
+.navbar-nav{
+	width: 100%;
+}
+.navbar-inverse{
+	background: @header-bg;
+}
+.location-header{
+	margin: 10px;
+	img{
+		padding-top: 5px;
+	}
+
+	p{
+		margin-bottom:0;
+	}
+}
+
+.map-directions{
+	color: @header-font;
+	font-weight: normal;
+	font-size: 13px;
+	font-family: "Open Sans";
+	margin-left: 15px;
+}
+
+.icon-bar{
+	color: @header-icon;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: @header-font;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+// Body
+h4{
+	font-weight: 600;
+	font-size:16px;
+	color: @font-header;
+}
+
+.main-content{
+	margin-top: 200px;
+	max-width: 700px;
+
+	span{
+		background: @white-bg;
+		line-height: 1.5;
+	}
+}
+
+.sub-points{
+	padding: 20px 40px 20px 40px;
+
+	p{
+		color: @font-body;
+	}
+}
+
+.subfooter{
+	padding: 40px;
+	h5{
+		font-weight: 600;
+		color: @font-header;
+	}
+
+	p{
+		font-weight: normal;
+		color: @font-body;
+	}
+}
+.bg-background {
+	background: @lb-bg;
+}
+
+.overlay-bg{
+	background: url('../img/avalon-home-bg.png') no-repeat center;
+	background-size:cover;
+}
+
+.jumbotron{
+	background: none;
+}
+
+.footer{
+	background: @header-bg;
+	height: 80px;
+}
+
+
+.footer-logo{
+	float: left;
+	padding: 24px;
+}
+
+.footer-links{
+	float: right;
+	color: @header-font;
+
+	ul{
+		padding: 0;
+		margin: 0;
+	}
+
+	li{
+		float: left;
+		list-style-type: none;
+		padding: 30px;
+
+		a{
+			color: @header-font;
+			text-transform: uppercase;
+
+			&:hover{
+				text-decoration: none;
+			}
+		}
+
+	}
+}
+
+.picture-2-offset{
+	padding-top: 20px
+}
+
+.top-offset{
+	padding: 20px 0;
+}
+
+.popout-box{
+	background: @light-grey-bg;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.close-para{
+	margin-bottom: 0;
+}
+
+// Media Queries
+@media (max-width: 991px){
+	 nav .location-header{
+		display: none;
+	}
+}
+
+// Footer breaks down
+@media (max-width: 938px){
+	.footer-logo{
+		display: block;
+		text-align: center;
+		float: none;
+		padding-bottom: 10px;
+
+	}
+
+	.footer{
+		height: auto;
+	}
+
+	.footer-links{
+		float: none;
+		ul{
+			text-align: center;
+			margin: 0 auto 10px auto;
+			width: 745px;
+		}
+	}
+}
+
+@media (max-width: 767px){
+	.footer{
+		text-align: center;
+		ul{
+			width: auto;
+		}
+		li{
+			float: none;
+			padding: 10px;
+		}
+	}
+	.sub-points{
+		padding-bottom: 40px;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.main-content{
+		margin: 0;
+		max-width: auto;
+	}
+
+	.subfooter:first-child{
+		padding-bottom: 0;
+	}
+
+	.subfooter:last-child{
+		padding-top: 0;
+	}
+
+	.content-logo{
+		padding-bottom: 20px;
+	}
+
+	.jumbotron{
+		background-color: @white-bg;
+
+		span{
+			background: none;
+			font-weight: 300;
+			font-size: 20px;
+		}
+	}
+}
