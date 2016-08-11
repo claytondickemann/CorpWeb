@@ -2,7 +2,7 @@
 @header-bg: #353535;
 @header-font: #fff;
 @header-icon: #F1F2F2;
-@light-grey-bg: #ddd;
+@light-grey-bg: #eee;
 @font: #6D6E71;
 @font-header:  #414042;
 @font-body: #5B5B5B;
@@ -133,7 +133,7 @@ h4{
 	li{
 		float: left;
 		list-style-type: none;
-		padding: 30px;
+		padding: 25px;
 
 		a{
 			color: @header-font;
@@ -163,6 +163,21 @@ h4{
 
 .close-para{
 	margin-bottom: 0;
+}
+
+.scaling-width{
+	width: 100%;
+}
+
+.link-styling{
+	&:active, &:focus, &:visited, &:hover{
+		color: @font;
+		text-decoration: none;
+	}
+}
+
+.photo-centering{
+	height: 200px;
 }
 
 // Media Queries
@@ -238,5 +253,9 @@ h4{
 			font-weight: 300;
 			font-size: 20px;
 		}
+	}
+
+	.thin-padding{
+		padding: 0 20px;
 	}
 }

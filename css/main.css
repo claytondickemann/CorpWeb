@@ -100,7 +100,7 @@ h4 {
 .footer-links li {
   float: left;
   list-style-type: none;
-  padding: 30px;
+  padding: 25px;
 }
 .footer-links li a {
   color: #fff;
@@ -116,12 +116,25 @@ h4 {
   padding: 20px 0;
 }
 .popout-box {
-  background: #ddd;
+  background: #eee;
   padding: 20px;
   margin: 20px 0;
 }
 .close-para {
   margin-bottom: 0;
+}
+.scaling-width {
+  width: 100%;
+}
+.link-styling:active,
+.link-styling:focus,
+.link-styling:visited,
+.link-styling:hover {
+  color: #6D6E71;
+  text-decoration: none;
+}
+.photo-centering {
+  height: 200px;
 }
 @media (max-width: 991px) {
   nav .location-header {
@@ -183,5 +196,8 @@ h4 {
     background: none;
     font-weight: 300;
     font-size: 20px;
+  }
+  .thin-padding {
+    padding: 0 20px;
   }
 }
