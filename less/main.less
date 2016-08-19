@@ -154,6 +154,11 @@ h4{
 .top-offset{
 	padding: 20px 0;
 }
+/*HERE*/
+.top-offset-border{
+    padding: 30px 0;
+    /*border-bottom: solid 1px grey;*/
+}
 
 .popout-box{
 	background: @light-grey-bg;
@@ -164,12 +169,30 @@ h4{
 .close-para{
 	margin-bottom: 0;
 }
-
+.truck {
+    padding: 8px;
+    box-shadow: inset 3px 3px 3px 0px rgba(0,0,0,0.3), inset -3px -3px 3px 0px rgba(0,0,0,0.3);
+    margin: center;
+}
+/*HERE*/
+.popout-box-service {
+  /*background: #ddd;*/
+  padding: 10px;
+  margin: center;
+}
 // Media Queries
 @media (max-width: 991px){
 	 nav .location-header{
 		display: none;
 	}
+    /*HERE*/
+.popout-box-service {
+  /*background: #ddd;
+  width: 500px;
+  padding: 10px;*/
+  margin: auto;
+  margin-top: 10px;
+}
 }
 
 // Footer breaks down
@@ -194,6 +217,13 @@ h4{
 			width: 745px;
 		}
 	}
+    /*HERE*/
+    .popout-box-service {
+          /*background: #ddd;
+          padding: 1px;*/
+          margin: auto;
+            margin-top: 10px;
+    }
 }
 
 @media (max-width: 767px){
@@ -238,5 +268,59 @@ h4{
 			font-weight: 300;
 			font-size: 20px;
 		}
+    }
+    /*HERE*/
+    .popout-box-service {
+      /*background: #ddd;
+      padding: 1px;*/
+      margin: auto;
+      margin-top: 10px;
+    }
+        
 	}
+    /*HERE*/
+    .top-offset-border{
+        padding: 20px 0;
+        /*border-bottom: solid 1px grey;*/
+    }
+.top-offset-border-grey{
+    padding: 30px 0;
+    background: WhiteSmoke;
 }
+.tab-container{
+			width: 800px;
+			margin: 0 auto;
+		}
+
+
+
+		ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+			background: #353535 ;
+			color: #fff;
+			display: block;
+			padding: 10px 15px;
+			cursor: pointer;
+            border-style: solid;
+            border-width: thin;
+            border-color: white;
+		}
+
+		ul.tabs li.current{
+			background: grey;
+			color: gold;
+		}
+
+		.tab-content{
+			display: none;
+			background: #ededed;
+			padding: 15px;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
