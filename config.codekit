@@ -74,6 +74,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/equipment.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/equipment.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -92,6 +101,17 @@
 		"initialSize": 395093,
 		"inputAbbreviatedPath": "\/img\/avalon-home-bg.png",
 		"outputAbbreviatedPath": "\/img\/avalon-home-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/FR_Tuthill-Logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29807,
+		"inputAbbreviatedPath": "\/img\/FR_Tuthill-Logo.png",
+		"outputAbbreviatedPath": "\/img\/FR_Tuthill-Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -180,6 +200,50 @@
 		"initialSize": 1415,
 		"inputAbbreviatedPath": "\/img\/our-service.png",
 		"outputAbbreviatedPath": "\/img\/our-service.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/smartlogix.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5998,
+		"inputAbbreviatedPath": "\/img\/smartlogix.png",
+		"outputAbbreviatedPath": "\/img\/smartlogix.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/STAFCO-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16202,
+		"inputAbbreviatedPath": "\/img\/STAFCO-logo.png",
+		"outputAbbreviatedPath": "\/img\/STAFCO-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/truck.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6836,
+		"inputAbbreviatedPath": "\/img\/truck.jpeg",
+		"outputAbbreviatedPath": "\/img\/truck.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/VALVTECT-logo.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6829,
+		"inputAbbreviatedPath": "\/img\/VALVTECT-logo.jpeg",
+		"outputAbbreviatedPath": "\/img\/VALVTECT-logo.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

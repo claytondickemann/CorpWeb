@@ -2,7 +2,7 @@
 @header-bg: #353535;
 @header-font: #fff;
 @header-icon: #F1F2F2;
-@light-grey-bg: #ddd;
+@light-grey-bg: #eee;
 @font: #6D6E71;
 @font-header:  #414042;
 @font-body: #5B5B5B;
@@ -133,7 +133,7 @@ h4{
 	li{
 		float: left;
 		list-style-type: none;
-		padding: 30px;
+		padding: 25px;
 
 		a{
 			color: @header-font;
@@ -169,6 +169,7 @@ h4{
 .close-para{
 	margin-bottom: 0;
 }
+
 .truck {
     padding: 8px;
     box-shadow: inset 3px 3px 3px 0px rgba(0,0,0,0.3), inset -3px -3px 3px 0px rgba(0,0,0,0.3);
@@ -180,6 +181,23 @@ h4{
   padding: 10px;
   margin: center;
 }
+
+
+.scaling-width{
+	width: 100%;
+}
+
+.link-styling{
+	&:active, &:focus, &:visited, &:hover{
+		color: @font;
+		text-decoration: none;
+	}
+}
+
+.photo-centering{
+	height: 200px;
+}
+
 // Media Queries
 @media (max-width: 991px){
 	 nav .location-header{
@@ -276,8 +294,11 @@ h4{
       margin: auto;
       margin-top: 10px;
     }
-        
+    .thin-padding{
+		padding: 0 20px;
 	}
+        
+}
     /*HERE*/
     .top-offset-border{
         padding: 20px 0;
@@ -324,3 +345,4 @@ h4{
 		.tab-content.current{
 			display: inherit;
 		}
+
