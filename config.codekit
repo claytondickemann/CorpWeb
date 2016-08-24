@@ -105,6 +105,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/avalon_truck.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 422498,
+		"inputAbbreviatedPath": "\/img\/avalon_truck.jpg",
+		"outputAbbreviatedPath": "\/img\/avalon_truck.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/doc_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24450,
+		"inputAbbreviatedPath": "\/img\/doc_icon.png",
+		"outputAbbreviatedPath": "\/img\/doc_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/FR_Tuthill-Logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -145,6 +167,17 @@
 		"initialSize": 1101,
 		"inputAbbreviatedPath": "\/img\/logo-white.png",
 		"outputAbbreviatedPath": "\/img\/logo-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/marathon_logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7275,
+		"inputAbbreviatedPath": "\/img\/marathon_logo.jpg",
+		"outputAbbreviatedPath": "\/img\/marathon_logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -200,6 +233,39 @@
 		"initialSize": 1415,
 		"inputAbbreviatedPath": "\/img\/our-service.png",
 		"outputAbbreviatedPath": "\/img\/our-service.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/panel-smartruck.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17176,
+		"inputAbbreviatedPath": "\/img\/panel-smartruck.jpg",
+		"outputAbbreviatedPath": "\/img\/panel-smartruck.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/panel-smarttank.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12724,
+		"inputAbbreviatedPath": "\/img\/panel-smarttank.jpg",
+		"outputAbbreviatedPath": "\/img\/panel-smarttank.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/SMARTLogix logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10549,
+		"inputAbbreviatedPath": "\/img\/SMARTLogix logo.png",
+		"outputAbbreviatedPath": "\/img\/SMARTLogix logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -334,6 +400,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/less\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/less\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/less\/main.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -359,6 +434,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page-template.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/products.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/products.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
