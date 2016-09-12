@@ -74,6 +74,24 @@ h4 {
 .bg-background {
   background: rgba(133, 191, 249, 0.6);
 }
+.pdf-container {
+  text-align: center;
+}
+.pdf-container a {
+  display: inline-block;
+  width: 50%;
+  min-width: 100px;
+  float: left;
+  padding: 10px 0;
+}
+.pdf-container img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.pdf-container p {
+  margin: 0;
+}
 .overlay-bg {
   background: url('../img/avalon-home-bg.png') no-repeat center;
   background-size: cover;
@@ -109,12 +127,21 @@ h4 {
 .footer-links li a:hover {
   text-decoration: none;
 }
+.logo-title-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo-title-container .content-logo {
+  float: left;
+  padding: 5px 15px 0 0;
+}
+.logo-title-container .content-title {
+  margin-top: 30px;
+  border-bottom: 2px solid #ccc;
+}
 #smartlogix {
   bottom: 0;
   vertical-align: bottom;
-}
-.picture-2-offset {
-  padding-top: 20px;
 }
 .top-offset {
   padding-top: 20px;
@@ -156,6 +183,9 @@ h4 {
 }
 #stafco {
   max-width: 143px;
+}
+.mobile-spacing {
+  display: none;
 }
 @media (max-width: 991px) {
   nav .location-header {
@@ -243,11 +273,12 @@ h4 {
   .thin-padding {
     padding: 0 20px;
   }
-}
-/*HERE*/
-.top-offset-border {
-  padding: 20px 0;
-  /*border-bottom: solid 1px grey;*/
+  .blank-spacing {
+    display: none;
+  }
+  .mobile-spacing {
+    display: inline;
+  }
 }
 .top-offset-border-grey {
   padding: 30px 0;
@@ -280,6 +311,7 @@ ul.tabs li.current {
   display: none;
   background: #ededed;
   padding: 15px;
+  margin-bottom: 30px;
 }
 .tab-content.current {
   display: inherit;

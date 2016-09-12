@@ -101,6 +101,26 @@ h4{
 	background: @lb-bg;
 }
 
+.pdf-container{
+	text-align: center;
+	a{
+		display: inline-block;
+		width: 50%;
+		min-width: 100px;
+		float: left;
+		padding: 10px 0;
+	}
+	img {
+		width: 50px;
+		height: 50px;
+		display: inline-block;
+	}
+
+	p{
+		margin: 0;
+	}
+}
+
 .overlay-bg{
 	background: url('../img/avalon-home-bg.png') no-repeat center;
 	background-size:cover;
@@ -147,15 +167,26 @@ h4{
 	}
 }
 
+.logo-title-container{
+	.top-offset;
+
+	.content-logo{
+		float: left;
+		padding: 5px 15px 0 0;
+	}
+
+	.content-title{
+		margin-top:30px;
+		border-bottom: 2px solid #ccc;
+	}
+}
+
 #smartlogix{
 	// max-height: 110px;
 	// margin: 45px 0;
 	// text-align:center;
 	bottom: 0;
 	vertical-align:bottom;
-}
-.picture-2-offset{
-	padding-top: 20px
 }
 
 .top-offset{
@@ -205,6 +236,10 @@ h4{
 
 #stafco{
 	max-width: 143px;
+}
+
+.mobile-spacing{
+	display: none;
 }
 
 // Media Queries
@@ -307,12 +342,14 @@ h4{
 		padding: 0 20px;
 	}
 
+	.blank-spacing{
+		display: none;
+	}
+
+	.mobile-spacing{
+		display: inline;
+	}
 }
-    /*HERE*/
-    .top-offset-border{
-        padding: 20px 0;
-        /*border-bottom: solid 1px grey;*/
-    }
 .top-offset-border-grey{
     padding: 30px 0;
     background: WhiteSmoke;
@@ -349,6 +386,7 @@ h4{
 			display: none;
 			background: #ededed;
 			padding: 15px;
+			margin-bottom: 30px;
 		}
 
 		.tab-content.current{
