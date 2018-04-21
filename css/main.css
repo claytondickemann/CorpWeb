@@ -1,7 +1,11 @@
+html,
 body {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 50px;
   color: #6D6E71;
+  height: 100%;
+}
+body {
+  padding-top: 50px;
 }
 .navbar-inverse .navbar-toggle {
   border-color: transparent;
@@ -24,6 +28,13 @@ body {
 }
 .location-header p {
   margin-bottom: 0;
+}
+.container {
+  min-height: 70%;
+  min-height: -webkit-calc(-37%);
+  min-height: -moz-calc(-37%);
+  min-height: calc(-37%);
+  min-height: calc(100% - 80px);
 }
 .map-directions {
   color: #fff;
@@ -143,11 +154,20 @@ h4 {
   bottom: 0;
   vertical-align: bottom;
 }
+.product-line {
+  position: relative;
+}
+.product-line .product-title {
+  font-weight: 600;
+}
+.product-line a {
+  float: right;
+  padding: 0 45px;
+}
 .top-offset {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/*HERE*/
 .top-offset-border {
   padding: 30px 0;
   /*border-bottom: solid 1px grey;*/
@@ -165,7 +185,9 @@ h4 {
   margin: center;
   max-width: 100%;
 }
-/*HERE*/
+.under-title {
+  margin: -20px 0 20px 0;
+}
 .popout-box-service {
   /*background: #ddd;*/
   padding: 10px;
@@ -297,11 +319,12 @@ ul.tabs li {
   background: #353535 ;
   color: #fff;
   display: block;
-  padding: 10px 15px;
+  padding: 15px 25px;
   cursor: pointer;
   border-style: solid;
   border-width: thin;
   border-color: white;
+  font-size: 1.2em;
 }
 ul.tabs li.current {
   background: grey;
