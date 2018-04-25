@@ -29,13 +29,6 @@ body {
 .location-header p {
   margin-bottom: 0;
 }
-.container {
-  min-height: 70%;
-  min-height: -webkit-calc(-37%);
-  min-height: -moz-calc(-37%);
-  min-height: calc(-37%);
-  min-height: calc(100% - 80px);
-}
 .map-directions {
   color: #fff;
   font-weight: normal;
@@ -154,6 +147,13 @@ h4 {
   bottom: 0;
   vertical-align: bottom;
 }
+.btn-primary {
+  background: #353535;
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #1c1c1c;
+}
 .product-line {
   position: relative;
 }
@@ -179,6 +179,9 @@ h4 {
 }
 .close-para {
   margin-bottom: 0;
+}
+.no-top {
+  margin-top: 0;
 }
 .truck {
   padding: 8px;
@@ -209,6 +212,18 @@ h4 {
 .mobile-spacing {
   display: none;
 }
+@media (min-width: 969px) {
+  .container {
+    min-height: 70%;
+    min-height: -webkit-calc(-37%);
+    min-height: -moz-calc(-37%);
+    min-height: calc(-37%);
+    min-height: calc(100% - 80px);
+  }
+  .container.no-min {
+    min-height: auto;
+  }
+}
 @media (max-width: 991px) {
   nav .location-header {
     display: none;
@@ -222,7 +237,7 @@ h4 {
     margin-top: 10px;
   }
 }
-@media (max-width: 938px) {
+@media (max-width: 969px) {
   .footer-logo {
     display: block;
     text-align: center;

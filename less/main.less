@@ -45,13 +45,6 @@ body{
 	}
 }
 
-.container{
-	min-height: 70%;
-	min-height: -webkit-calc(100% - (80px + 57px)); // Footer height + header height
-    min-height: -moz-calc(100% - (80px + 57px)); // Footer height + header height
-    min-height: calc(100% - (80px + 57px)); // Footer height + header height
-    min-height: calc(100% ~"-" 80px);
-}
 .map-directions{
 	color: @header-font;
 	font-weight: normal;
@@ -200,6 +193,15 @@ h4{
 	vertical-align:bottom;
 }
 
+.btn-primary{
+	background: @header-bg;
+	color: @header-font;
+
+	&:hover{
+		background: darken(@header-bg, 10%);
+	}
+}
+
 // Products
 .product-line{
 	position:relative;
@@ -232,6 +234,10 @@ h4{
 
 .close-para{
 	margin-bottom: 0;
+}
+
+.no-top{
+	margin-top: 0;
 }
 
 .truck {
@@ -272,6 +278,19 @@ h4{
 }
 
 // Media Queries
+@media (min-width: 969px){
+	.container{
+		min-height: 70%;
+		min-height: -webkit-calc(100% - (80px + 57px)); // Footer height + header height
+	    min-height: -moz-calc(100% - (80px + 57px)); // Footer height + header height
+	    min-height: calc(100% - (80px + 57px)); // Footer height + header height
+	    min-height: calc(100% ~"-" 80px);
+		
+	    &.no-min{
+	    	min-height: auto;
+	    }
+	}
+}
 @media (max-width: 991px){
 	 nav .location-header{
 		display: none;
@@ -287,7 +306,7 @@ h4{
 }
 
 // Footer breaks down
-@media (max-width: 938px){
+@media (max-width: 969px){
 	.footer-logo{
 		display: block;
 		text-align: center;
